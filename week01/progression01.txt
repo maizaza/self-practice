@@ -1,0 +1,25 @@
+Progression01
+
+- ฝึกใช้งาน array, object และ function เบื้องต้นใน JavaScript
+- ทดลองเปรียบเทียบ object:
+  - obj1 === obj2 กรณีชี้ไป object เดียวกันใน memory -> true
+  - obj3 === obj4 กรณีแม้มีค่าเหมือนกันแต่เป็นคนละ object -> false
+- ฝึกใช้งาน array:
+  - การเข้าถึงสมาชิก (arr[i])
+  - การดูขนาด array (arr.length)
+  - การเข้าถึงสมาชิกตัวสุดท้าย (arr[arr.length-1])
+  - การเพิ่มสมาชิก (push, arr[arr.length+1])
+  - การลบสมาชิก (pop)
+  - การย่อ array โดยกำหนด length ใหม่
+- ฝึกการวนลูปแสดงผล array:
+  - for loop แบบใช้ index
+  - for of loop แบบอ่านค่าทีละ element
+- ฝึกการใช้ spread operator กับ string -> แตก string เป็น array ของตัวอักษร
+- ฝึกการสร้าง array ด้วย constructor:
+  - new Array()
+  - new Array(3)
+  - Array.of()
+  - Array.from()
+- ฝึกการใช้ destructuring array พร้อม rest parameter -> แยกค่าออกจาก array
+- ฝึกการวนลูปด้วย for in เพื่อเข้าถึง index ของ array
+- ได้ทักษะการจัดการ array, object และ destructuring เบื้องต้น

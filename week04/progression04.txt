@@ -1,0 +1,23 @@
+Progression04
+
+- ฝึกใช้งาน Array methods ระดับกลาง-สูงใน JavaScript
+- ฝึกการใช้ .filter():
+  - แบบ anonymous arrow function
+  - แบบ named arrow function
+  - ทดสอบว่า original array ไม่ถูกเปลี่ยนค่า
+- ฝึกการใช้ .map() แปลง object เป็น string (เช่น เปลี่ยนชื่อพนักงานเป็นตัวพิมพ์ใหญ่)
+- ฝึกการใช้ .map() + .filter() ร่วมกัน (คัดกรองชื่อที่มี "JAI")
+- ฝึกการใช้ .reduce():
+  - รวมค่าตัวเลขใน array
+  - รวมราคารวมของสินค้าใน carts และคูณ VAT 7%
+- ฝึกการใช้ .find() เพื่อค้นหา element แรกที่ตรงเงื่อนไข
+- ฝึก array manipulation แบบต่าง ๆ:
+  - เพิ่มค่าใหม่ด้วย index
+  - push(), pop(), shift(), unshift()
+  - splice() -> เพิ่ม/ลบข้อมูลตาม index
+  - slice() -> สร้าง array ใหม่จากช่วงที่เลือก
+  - fill() -> แทนค่าบางช่วงของ array
+- แบบฝึกหัด:
+  1. ใช้ .reduce() เพื่อหาผลรวมของ quantity ใน cart (expected: 10)
+  2. ใช้ .reduce() เพื่อหาสินค้าที่มีราคาสูงที่สุด (expected: { name: "Monitor", price: 3000 })
+- ได้ทักษะการจัดการ array ด้วย method .map(), .filter(), .reduce(), .find() และ array manipulation อื่น ๆ อย่างเป็นระบบ

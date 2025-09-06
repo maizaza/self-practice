@@ -1,0 +1,24 @@
+Progression02
+
+- ฝึกใช้งาน function กับ object ขั้นกลางใน JavaScript
+- ฝึกเขียนฟังก์ชัน calculateTotalPages(items, itemsPerPage) เพื่อคำนวณจำนวนหน้ารวม และใช้ Math.ceil() จัดการการปัดเศษ
+- ทดลองสร้าง object ด้วย literals -> key ซ้ำกันจะเหลือค่าอันสุดท้าย
+- ฝึกสร้าง object ที่มี property และ method:
+  - method แบบ function declaration
+  - method แบบ shorthand (isAdult())
+  - nested object (address)
+- ฝึกการ mutate property ของ object และการเพิ่ม/ลบ property (add email, delete age/address)
+- ฝึก constructor function (Car) -> ใช้ new สร้าง object ที่มี method
+- ฝึกการสร้าง class (Animal) ด้วย ES6 -> มี constructor และ method
+- ฝึกการใช้ Object.create() เพื่อสร้าง object ใหม่ที่อ้างอิง prototype จาก object อื่น
+- ฝึกการ loop ผ่าน property ของ object ด้วย for...in
+- ทดลอง object reference และ mutability (objA, objB) -> object ถูกเปลี่ยนผ่าน reference
+- ฝึกตรวจสอบ equality ของ object:
+  - === เปรียบเทียบ reference
+  - เขียนฟังก์ชัน isStudentEqual() เพื่อเปรียบเทียบ property
+- ฝึกการใช้ Object.keys(), Object.values(), Object.entries() -> แปลง property เป็น array
+- แบบฝึกหัด:
+  1. เขียนฟังก์ชัน getFullAddress(user) เพื่อรวม address เป็น string
+  2. เพิ่ม method ให้ object หลังจากสร้างเสร็จ (dogo.describe)
+  3. เขียนฟังก์ชัน countProperties(obj) เพื่อนับจำนวน property ของ object
+- ได้ทักษะการเขียน object, constructor, class และการจัดการ property ใน JavaScript

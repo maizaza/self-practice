@@ -1,0 +1,19 @@
+Progression03
+
+- ฝึกการเขียนโปรแกรมเชิงฟังก์ชัน (Functional Programming) ใน JavaScript
+- เขียนฟังก์ชัน getFreqofWords(sentence) เพื่อหาความถี่ของคำในประโยค:
+  - ใช้ split() แยกคำ
+  - ใช้ object เก็บจำนวนครั้งที่คำแต่ละคำปรากฏ
+  - ตรวจสอบเงื่อนไข input ไม่ถูกต้อง (ไม่ใช่ string หรือว่าง) -> return undefined
+- ฝึกการเขียนฟังก์ชันรูปแบบต่าง ๆ:
+  - Function Declaration (sums)
+  - Arrow Function (sum, greet, square, add, factorial)
+  - Function Expression (multiply)
+  - Function Reference (เก็บ function ในตัวแปร)
+- ฝึกส่งฟังก์ชันเป็น parameter ให้ฟังก์ชันอื่น (calculate)
+- ฝึกการใช้ rest parameter (`...args`) เพื่อรับค่าหลายค่า
+- ฝึกการใช้ arguments object เพื่อรวมค่าทั้งหมด
+- ฝึก default parameter (greetPerson)
+- แบบฝึกหัด:
+  - เขียนฟังก์ชัน filterEvens(numbers) -> คืนค่าเฉพาะเลขคู่ โดยใช้ arrow function
+- ได้ทักษะการเขียนฟังก์ชันหลายรูปแบบ, higher-order function, rest parameter, default parameter และการทำงานเชิงฟังก์ชันเบื้องต้น

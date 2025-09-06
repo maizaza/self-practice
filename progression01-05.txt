@@ -1,0 +1,47 @@
+Progression 01-05
+
+จากการฝึกฝนในสัปดาห์ที่ 1–5 ได้เรียนรู้และพัฒนาทักษะการเขียนโปรแกรมด้วย JavaScript ดังนี้:
+
+1. การทำงานกับ Array
+- การสร้าง array ด้วย literals, constructor, Array.of(), Array.from()
+- การเข้าถึงสมาชิก, ขนาด, และสมาชิกตัวสุดท้าย
+- การเพิ่ม/ลบ/แก้ไขค่า (push, pop, shift, unshift, splice, slice, fill)
+- การรวม array (concat, spread operator)
+- การแปลง array เป็น string (toString, join)
+- การใช้เมธอดขั้นสูง เช่น map(), filter(), reduce(), find(), findIndex(), sort(), forEach()
+- การ destructuring และการใช้ rest parameter
+- การตรวจสอบชนิดข้อมูลด้วย Array.isArray()
+
+2. การทำงานกับ Object
+- การสร้าง object ด้วย literals และ constructor function
+- การใช้ ES6 class และ Object.create()
+- การเพิ่ม/ลบ/แก้ไข property
+- การสร้าง method ใน object และการใช้ this
+- การเข้าถึง property แบบ dot และ bracket notation
+- การ loop ผ่าน property ด้วย for...in
+- ความแตกต่างระหว่างการเปรียบเทียบ object โดย reference และการเปรียบเทียบค่า property
+- การใช้ Object.keys(), Object.values(), Object.entries()
+
+3. ฟังก์ชันและ Functional Programming
+- การเขียนฟังก์ชันหลายรูปแบบ:
+  - Function Declaration
+  - Function Expression
+  - Arrow Function
+- การส่งฟังก์ชันเป็น parameter และการใช้เป็น callback
+- การใช้ rest parameter และ arguments object
+- การกำหนด default parameter
+- การเขียน higher-order functions เช่น calculate(), filterEvens()
+- การเขียนฟังก์ชันแก้ปัญหา เช่น getFreqofWords(), getPassingNames()
+
+4. การจัดการโมดูล (Modules)
+- การ export ฟังก์ชัน, ค่า, และคลาสออกจากไฟล์
+- การใช้ default export และการเปลี่ยนชื่อฟังก์ชันตอน import
+- การใช้ CommonJS (require) และ ES Module (import/export)
+
+5. ทักษะที่ได้รับ
+- การคิดเชิงโครงสร้างในการจัดการข้อมูลแบบ array และ object
+- การใช้เครื่องมือของภาษาเพื่อลดความซับซ้อน (เช่น map/filter/reduce แทนการใช้ loop)
+- การออกแบบฟังก์ชันให้ยืดหยุ่นและนำกลับมาใช้ซ้ำได้
+- ความเข้าใจเรื่องการอ้างอิง object และผลกระทบต่อการแก้ไขข้อมูล
+- การจัดการโมดูลเพื่อทำให้โค้ดเป็นระบบและบำรุงรักษาง่าย
+- พื้นฐานการเขียนเชิง functional programming ใน JavaScript

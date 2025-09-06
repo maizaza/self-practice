@@ -1,0 +1,13 @@
+Progression05
+
+- ฝึกการใช้งาน Array method เพิ่มเติม (forEach, sort, join, concat, spread operator)
+- ฝึกการเขียนฟังก์ชัน getPassingNames() เพื่อเลือกนักเรียนที่ผ่าน และเปลี่ยนชื่อเป็นตัวพิมพ์ใหญ่
+- ฝึกการตรวจสอบข้อมูลว่าเป็น Array หรือไม่ ด้วย Array.isArray()
+- ฝึกการรวม array เข้าด้วยกัน (spread operator, concat)
+- ฝึกการแปลง array เป็น string ด้วย toString() และ join()
+- ฝึกการใช้ sort() กับตัวเลข และ object (เช่น เรียงตามชื่อหรือตามค่า gpa)
+- ฝึกการ import/export module:
+  - ใช้ ES module (import getLenght as default, export function/class)
+  - ใช้ CommonJS (require()) ใน week5.js
+- ได้ทักษะการเขียนโปรแกรมเชิงโครงสร้างและการจัดการข้อมูลในรูปแบบ array และ object
+- ได้ทักษะพื้นฐานเกี่ยวกับ module ใน JavaScript (การ export หลายแบบ, default export)
